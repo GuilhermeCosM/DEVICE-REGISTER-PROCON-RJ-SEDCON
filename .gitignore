@@ -1,0 +1,57 @@
+# =========================
+# Arquivos sensíveis / config local
+# =========================
+backend/src/main/resources/application.properties
+backend/src/main/resources/application-*.properties
+!backend/src/main/resources/application.properties.example
+*.env
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Backend - Java / Maven / Spring Boot
+# =========================
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+*.class
+*.jar
+*.war
+*.log
+HELP.md
+
+# IDEs (backend)
+.idea/
+*.iml
+*.iws
+.settings/
+.classpath
+.project
+.vscode/
+
+# =========================
+# Frontend - Node / React / Vite
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Banco de dados / dumps
+# =========================
+*.sql
+*.dump
+*.backup
+
+# =========================
+# Sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
