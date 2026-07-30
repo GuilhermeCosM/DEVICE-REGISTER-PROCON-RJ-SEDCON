@@ -47,7 +47,7 @@ Before running the project, make sure you have installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/device-registration.git
+git clone https://github.com/GuilhermeCosM/DEVICE-REGISTER-PROCON-RJ-SEDCON.git
 cd device-registration
 ```
 
